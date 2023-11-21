@@ -1,0 +1,4 @@
+#445D48 - dark green
+#618264 - green
+#B0D9B1 - light green
+#362706 - brown

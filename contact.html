@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Cliffside Cabins | Contact</title>
+        <meta name="author" content="Michael Wood">
+        <meta name="description" content="Final Website">
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+
+    <body>
+        
+        <header>
+            <section>
+                
+                <div id="h1-nav">  
+                    <h1><a href="index.html">Cliffside Cabins</a></h1> 
+            
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#accomodations">Accommodations</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div> 
+                    <img src="images/swiss-valley.jpg" alt="A picture of a beautiful valley full of trees and mountains" height="560" width="1440">
+                    
+            </section>
+        </header>
+
+
+        <main>
+            <section>
+                <h2>Contact Us</h2>
+                
+                <p class="paragraph">
+                    Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                </p>
+                <p>
+                    Required fields marked with a (<span class="required">*</span>).
+                </p>
+            
+                <img src="images/swiss-sunset.jpg" alt="mountain and trees reflecting in a lake" height="270" width="710">
+            
+
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <div>
+                        <label for="my-name">Name<span class="required">*</span></label>
+                        <input type="text" name="my-name" id="my-name" required>
+                        <label for="my-email">Email<span class="required">*</span></label>
+                        <input type="email" name="my-email" id="my-email" required>
+                        <label for="my-phone">Phone<span class="required">*</span></label>
+                        <input type="tel" name="my-phone" id="my-phone" required>
+                    </div>
+
+                    <div>             
+                        <fieldset>
+                            <legend>Preferred Contact Method</legend>
+                            <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                        </fieldset>
+                        
+                        <label for="my-comments">Comments<span class="required">*</span></label>
+                        <textarea name="my-comments" id="my-comments" required></textarea>
+                        
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+
+
+        <footer id="contact-footer">
+            <p>&copy; 2023 - Cliffside Cabins</p>
+
+            <p>This site is for educational purposes only</p>
+        </footer>
+
+    </body>
+
+</html>
